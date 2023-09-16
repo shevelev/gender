@@ -54,7 +54,7 @@ class ViewController: UIViewController {
     
     private var mView: UIView = {
         let view = UIView()
-        view.backgroundColor = UIColor(named: "manColor")?.withAlphaComponent(0.1)
+        view.backgroundColor = UIColor(named: "manColorLigth")
         view.clipsToBounds = true
         view.layer.cornerRadius = 18
         view.translatesAutoresizingMaskIntoConstraints = false
@@ -64,7 +64,7 @@ class ViewController: UIViewController {
     
     private var wView: UIView = {
         let view = UIView()
-        view.backgroundColor = UIColor(named: "womanColor")?.withAlphaComponent(0.1)
+        view.backgroundColor = UIColor(named: "womanColorLigth")
         view.clipsToBounds = true
         view.layer.cornerRadius = 18
         view.translatesAutoresizingMaskIntoConstraints = false
@@ -114,7 +114,7 @@ class ViewController: UIViewController {
         if sender.tag == 1 {
             manButton.setTitleColor(.white, for: .normal)
             manButton.backgroundColor = UIColor(named: "manColor")
-            mView.layer.backgroundColor = UIColor(named: "manColorPressed")?.cgColor
+            mView.backgroundColor = UIColor(named: "manColorPressed")
             mImage.image = mImage.image?.withRenderingMode(.alwaysTemplate)
             mImage.tintColor = .white
             
@@ -122,20 +122,19 @@ class ViewController: UIViewController {
             womanButton.backgroundColor = .white
             wImage.image = wImage.image?.withRenderingMode(.alwaysTemplate)
             wImage.tintColor = UIColor(named: "womanColor")
-            wView.layer.backgroundColor = UIColor(named: "womanColor")?.withAlphaComponent(0.1).cgColor
+            wView.backgroundColor = UIColor(named: "womanColorLigth")
         } else if sender.tag == 2 {
             womanButton.setTitleColor(.white, for: .normal)
             womanButton.backgroundColor = UIColor(named: "womanColor")
-            wView.layer.backgroundColor = UIColor(named: "womanColor")?.withAlphaComponent(0.1).cgColor
+            wView.backgroundColor = UIColor(named: "womanColorPressed")
             wImage.image = wImage.image?.withRenderingMode(.alwaysTemplate)
             wImage.tintColor = .white
-            
             
             manButton.setTitleColor(UIColor(named: "manColor"), for: .normal)
             manButton.backgroundColor = .white
             mImage.image = mImage.image?.withRenderingMode(.alwaysTemplate)
             mImage.tintColor = .white
-            mView.layer.backgroundColor = UIColor(named: "manColorPressed")?.cgColor
+            mView.backgroundColor = UIColor(named: "manColorLigth")
         }
     }
     
