@@ -133,7 +133,7 @@ class ViewController: UIViewController {
             manButton.setTitleColor(UIColor(named: "manColor"), for: .normal)
             manButton.backgroundColor = .white
             mImage.image = mImage.image?.withRenderingMode(.alwaysTemplate)
-            mImage.tintColor = .white
+            mImage.tintColor = UIColor(named: "manColor")
             mView.backgroundColor = UIColor(named: "manColorLigth")
         }
     }
