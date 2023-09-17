@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C9843CD32AB6D66E00C185F9 /* CustomButtonChoose.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9843CD22AB6D66E00C185F9 /* CustomButtonChoose.swift */; };
 		C989D9E72AB6012B00268730 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C989D9E62AB6012B00268730 /* AppDelegate.swift */; };
 		C989D9E92AB6012B00268730 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C989D9E82AB6012B00268730 /* SceneDelegate.swift */; };
 		C989D9EB2AB6012B00268730 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C989D9EA2AB6012B00268730 /* ViewController.swift */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C9843CD22AB6D66E00C185F9 /* CustomButtonChoose.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonChoose.swift; sourceTree = "<group>"; };
 		C989D9E32AB6012B00268730 /* gender.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gender.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C989D9E62AB6012B00268730 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C989D9E82AB6012B00268730 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -57,6 +59,7 @@
 				C989D9E62AB6012B00268730 /* AppDelegate.swift */,
 				C989D9E82AB6012B00268730 /* SceneDelegate.swift */,
 				C989D9EA2AB6012B00268730 /* ViewController.swift */,
+				C9843CD22AB6D66E00C185F9 /* CustomButtonChoose.swift */,
 				C989D9EF2AB6012C00268730 /* Assets.xcassets */,
 				C989D9F12AB6012C00268730 /* LaunchScreen.storyboard */,
 				C989D9F42AB6012C00268730 /* Info.plist */,
@@ -137,6 +140,7 @@
 				C989D9EB2AB6012B00268730 /* ViewController.swift in Sources */,
 				C989D9E72AB6012B00268730 /* AppDelegate.swift in Sources */,
 				C989D9E92AB6012B00268730 /* SceneDelegate.swift in Sources */,
+				C9843CD32AB6D66E00C185F9 /* CustomButtonChoose.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
